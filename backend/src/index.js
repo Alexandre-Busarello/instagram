@@ -14,8 +14,6 @@ mongoose.connect('mongodb+srv://busamar:@a03070812@cluster0-9axbm.mongodb.net/te
 	useNewUrlParser: true,
 });
 
-// Teste
-
 // Middleware para todas as requidições onde colocamos a instancia do nosso socket.io
 // Com isso é possível utilizar o io para notificar os usuarios em tempo real de mudanças
 // em todas as requisições HTTP
